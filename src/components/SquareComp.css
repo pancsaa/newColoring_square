@@ -1,0 +1,32 @@
+section {
+    perspective: 1000px;
+
+}
+
+article {
+    height: 7vw;
+    width: 7vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    user-select: none;
+}
+
+.milestone {
+    animation-name: rotate;
+    animation-duration: 1s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(180deg);
+    }
+}

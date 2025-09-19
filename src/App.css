@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button{
+  background-color: bisque;
+  color: black;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
